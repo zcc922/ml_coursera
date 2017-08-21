@@ -26,9 +26,7 @@ sigma = zeros(1, size(X, 2));
 % Hint: You might find the 'mean' and 'std' functions useful.
 %
 
-mu = mean(X_norm); 
-sigma = std(X_norm); 
-X_norm = (X_norm - repmat(mu, size(X,1), 1)) ./repmat(sigma , size(X, 1), 1); 
+
 
 
 % ============================================================

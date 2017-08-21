@@ -13,8 +13,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-res  = X*theta - y; 
-J = (res' * res ) /m *0.5;
+
 
 
 % =========================================================================
