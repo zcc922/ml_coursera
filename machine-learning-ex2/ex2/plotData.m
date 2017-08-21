@@ -12,7 +12,9 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
-
+positive = find (y == 1); negative = find (y==0); 
+plot (X(positive, 1), X(positive,2), 'k+', 'MarkerSize', 7 ,'LineWidth',2); 
+plot (X(negative, 1), X(negative,2), 'ko', 'MarkerFaceColor', 'y' ,'MarkSize',7); 
 
 
 % =========================================================================
